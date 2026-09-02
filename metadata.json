@@ -1,0 +1,6 @@
+{
+  "name": "Lament: Interactive Stanza Map",
+  "description": "An elegiac exploration and literary revision tool for Gillian Clarke's poem Lament, analyzing environmental damage and the 1991 Gulf War fallout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
