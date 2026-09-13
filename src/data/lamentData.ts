@@ -4,300 +4,332 @@ export const STANZA_NODES: StanzaNode[] = [
   {
     id: 1,
     stanzaNumber: 1,
-    title: 'Stanza 1: The Oil-Coated Cormorant',
-    quote: 'For the cormorant in his nest of silk / For the shadow on the sea',
-    fullStanzaText: 'For the cormorant in his nest of silk,\nfor the shadow on the sea,\nfor the turtle with his mantle of green,\nfor the grief of the cormorant.',
+    title: 'Nest of Sickness',
+    quote: 'For her eggs laid in their nest of sickness.',
+    fullStanzaText: 'For the green turtle with her pulsing burden,\nin search of the breeding-ground.\nFor her eggs laid in their nest of sickness.',
     category: 'Marine',
     zoneId: 1,
     xPos: 20,
     yPos: 18,
-    techniques: ['Metaphor', 'Juxtaposition', 'Foreshadowing', 'Anaphora'],
+    techniques: ['Personification', 'Sibilance', 'Contrast'],
     literaryDevices: [
       {
-        name: 'Metaphor',
-        quotePhrase: 'nest of silk',
-        explanation: 'Metaphorically describes toxic, shimmering crude oil clinging to bird feathers as luxurious "silk", highlighting how deceptively destructive human pollution is.'
+        name: 'Personification',
+        quotePhrase: 'her eggs',
+        explanation: 'The speaker uses “her” to refer to the mother turtle. This adds impact; she has greater emotional significance and is just like us.'
       },
       {
-        name: 'Juxtaposition',
-        quotePhrase: 'nest of silk / shadow on the sea',
-        explanation: 'Juxtaposes delicacy and elegance with the ominous black slick spreading across marine waters.'
-      },
-      {
-        name: 'Foreshadowing',
-        quotePhrase: 'shadow on the sea',
-        explanation: 'The "shadow" foreshadows darkness, environmental catastrophe, and the moral stain of human conflict.'
+        name: 'Sibilance',
+        quotePhrase: 'nest of sickness',
+        explanation: 'Conveys a sorrowful, uneasy mood. It slows down the reading pace, highlighting the reality the mother turtle faces.'
       }
     ],
-    analysis: 'Stanza 1 initiates Gillian Clarke’s elegiac litany. By opening with "For the cormorant", Clarke establishes a mourning catalogue. The image pairs soft, luxurious imagery ("nest of silk") with suffocating crude oil that entraps sea life. "Shadow" denotes both the physical oil slick spreading over the Gulf waters and the dark moral shadow cast by human warfare.',
-    context: '1991 Gulf War oil spill: Over 8 million barrels of crude oil were intentionally spilled into the Persian Gulf by Iraqi forces to impede US amphibious landings, resulting in the worst marine environmental catastrophe in history up to that time.',
-    symbolism: ['Cormorant = Innocent wildlife trapped in human warfare', 'Silk = Viscous oil slick that glitters deceivingly', 'Shadow = Looming death and ecological ruin'],
+    analysis: 'The speaker describes the nest as "their nest of sickness". "Their" represents a family home for future generations. "Nest" connotes new life and a safe atmosphere, which is shockingly contrasted by "sickness", indicating poisoning. This implies the severe impact war has on the ecological world.',
+    context: 'The green sea turtle referenced is an endangered species. Her struggle to hatch healthy eggs already limits the number of future generations.',
+    symbolism: ['Nest of sickness = Poisoned environment and ruined future'],
     keyVocabulary: [
-      { word: 'Cormorant', definition: 'A dark, diving seabird with webbed feet and a hooked beak.' },
-      { word: 'Elegy', definition: 'A poem of serious reflection, typically a lament for the dead.' }
+      { word: 'Connotation', definition: 'An idea or feeling that a word invokes in addition to its literal meaning.' }
     ],
-    essayPrompt: 'How does Gillian Clarke use ironic imagery in Stanza 1 to emphasize the tragedy of oil pollution?'
+    essayPrompt: 'How does the phrase "nest of sickness" explore the impact of war on nature?'
   },
   {
     id: 2,
     stanzaNumber: 2,
-    title: 'Stanza 2: The Regal Turtle & Grief',
-    quote: 'For the turtle with his mantle of green / For the grief of the cormorant',
-    fullStanzaText: 'For the turtle with his mantle of green,\nfor the grief of the cormorant,\nfor the gull and the restless wader,\nfor the ocean\'s scalding boy.',
+    title: 'Funeral Silk',
+    quote: 'For the cormorant in his funeral silk',
+    fullStanzaText: 'For the cormorant in his funeral silk,\nthe veil of iridescence on the sand,\nthe shadow on the sea.',
     category: 'Marine',
     zoneId: 1,
     xPos: 75,
     yPos: 26,
-    techniques: ['Personification', 'Regal Diction', 'Anaphora', 'Empathy'],
+    techniques: ['Metaphor', 'Personification', 'Metonymy'],
     literaryDevices: [
       {
-        name: 'Regal Diction',
-        quotePhrase: 'mantle of green',
-        explanation: '"Mantle" (a royal cloak) bestows majesty, dignity, and noble status onto innocent green sea turtles.'
+        name: 'Metaphor',
+        quotePhrase: 'funeral silk',
+        explanation: 'Represents the cormorant’s feathers being covered with a layer of oil. When one thinks of a funeral, one imagines mourners in black.'
       },
       {
-        name: 'Personification',
-        quotePhrase: 'grief of the cormorant',
-        explanation: 'Attributes human emotional sorrow ("grief") to the seabird, breaking the barrier between human violence and animal suffering.'
+        name: 'Metonymy',
+        quotePhrase: 'the cormorant',
+        explanation: 'The cormorant is a metonym for the many animals who died in this environmental disaster.'
       }
     ],
-    analysis: '"Mantle" accords dignity and majesty to marine wildlife, depicting animals as noble citizens of the natural world now stripped of their habitat. The poem anthropomorphizes the cormorant by granting it "grief", suggesting nature itself mourns the loss of purity and balance.',
-    context: 'Coastal breeding grounds, coral reefs, and endangered green turtle nesting beaches along Saudi Arabia and Kuwait were choked by oil slicks, killing tens of thousands of migratory birds and marine organisms.',
-    symbolism: ['Mantle of green = Natural dignity & ancient green sea turtle shells', 'Grief = Nature’s unspoken trauma'],
+    analysis: 'Clarke creates the image of a mourner in black, grieving for the destruction of his and many others’ habitat. The funeral silk represents the cormorant mourning for birds of his kind who succumbed to death as a result of oil pollution—and he is next in line.',
+    context: 'Clarke alludes to the crude oil spilt into the Persian Gulf by the Iraqi Army, covering birds in black sludge.',
+    symbolism: ['Funeral silk = Coat of oil and mourning for dead wildlife'],
     keyVocabulary: [
-      { word: 'Mantle', definition: 'A sleeveless cloak or royal garment representing authority and dignity.' },
-      { word: 'Anthropomorphism', definition: 'Attributing human traits or emotions to animals or non-human entities.' }
+      { word: 'Metonymy', definition: 'A figure of speech in which a thing or concept is referred to by the name of something closely associated with it.' }
     ],
-    essayPrompt: 'Examine how Clarke elevates non-human creatures into noble victims through choice of diction.'
+    essayPrompt: 'Discuss the dual meaning of "funeral silk" in portraying both literal oil and emotional grief.'
   },
   {
     id: 3,
     stanzaNumber: 3,
-    title: 'Stanza 3: Displaced Waders & Scalding Boy',
-    quote: 'For the gull and the restless wader / For the ocean\'s scalding boy',
-    fullStanzaText: 'for the gull and the restless wader,\nfor the ocean\'s scalding boy,\nfor the oil on the sea and the streak of fire,\nfor the burden of the sea.',
+    title: 'The Silenced Whale',
+    quote: 'the whale struck dumb by the missile’s thunder',
+    fullStanzaText: 'For the ocean\'s lap with its mortal stain.\nFor Ahmed at the closed border.\nFor the whale struck dumb by the missile\'s thunder.',
     category: 'Marine',
     zoneId: 1,
     xPos: 40,
-    yPos: 32,
-    techniques: ['Active Verbs', 'Oxymoron', 'Contrast', 'Juxtaposition'],
+    yPos: 35,
+    techniques: ['Juxtaposition', 'Metaphor', 'Plosives'],
     literaryDevices: [
       {
-        name: 'Active Verbs & Adjectives',
-        quotePhrase: 'restless wader',
-        explanation: '"Restless" evokes panic, loss of safe habitat, and constant flight from toxic oil slicks.'
+        name: 'Repetition of Plosives',
+        quotePhrase: 'struck dumb by',
+        explanation: 'Creates an abrupt, shocking effect that represents how the whale is puzzled and uneasy afterwards.'
       },
       {
-        name: 'Oxymoron / Paradox',
-        quotePhrase: 'ocean\'s scalding boy',
-        explanation: 'Combines "ocean" (cool, life-giving water) with "scalding" (extreme burning heat) to depict burning naval war and young soldiers burning at sea.'
+        name: 'Juxtaposition',
+        quotePhrase: 'missile’s thunder',
+        explanation: 'Draws on the language of storms, comparing war with environmental disasters. War contaminates human society and the natural world.'
       }
     ],
-    analysis: '"Restless" depicts severe animal displacement as birds search in vain for clean shores. The shocking image of "the ocean\'s scalding boy" shifts the poem\'s scope from animal suffering to human cost, representing young naval servicemen trapped in burning oil slicks.',
-    context: 'During naval engagements in the Gulf, oil fires ignited across the sea surface. Sailors and pilots faced horrific burns in waters turned scorching hot by burning crude oil.',
-    symbolism: ['Restless wader = Homeless wildlife and displaced populations', 'Scalding boy = Youthful innocence sacrificed in mechanized war'],
+    analysis: 'In a literal sense, the whale is silenced by the deep, percussive sound of a missile exploding. Whales rely on complex sounds to communicate; this man-made noise disrupts their navigation. The simple image of a silenced whale shows that the effects of war are not limited to humans—the sea, a sanctuary, is also devastated.',
+    context: 'Missiles and explosions in naval warfare create overpowering noise pollution in the ocean.',
+    symbolism: ['Missile\'s thunder = Unnatural, overwhelming human violence'],
     keyVocabulary: [
-      { word: 'Wader', definition: 'A long-legged shorebird that feeds in shallow coastal waters.' },
-      { word: 'Scalding', definition: 'Injuring or burning with hot liquid or steam; extremely hot.' }
+      { word: 'Plosive', definition: 'A consonant sound produced by stopping the airflow using the lips, teeth, or palate, followed by a sudden release of air.' }
     ],
-    essayPrompt: 'Analyze the shift in focus from animal suffering to human casualties in Stanza 3.'
+    essayPrompt: 'How does Clarke use sound imagery to emphasize the disruption of the natural order?'
   },
   {
     id: 4,
     stanzaNumber: 4,
-    title: 'Stanza 4: The Moral Burden of the Sea',
-    quote: 'For the oil on the sea and the streak of fire / For the burden of the sea',
-    fullStanzaText: 'for the oil on the sea and the streak of fire,\nfor the burden of the sea,\nfor the soldier in his uniform of fire,\nfor the sun humbled.',
-    category: 'Environmental Trauma',
+    title: 'Uniform of Fire',
+    quote: 'For the soldier with his uniform of fire',
+    fullStanzaText: 'For the soldier with his uniform of fire,\nFor the gunsmith and the armourer,\nthe boy fusilier who joined for the company...',
+    category: 'Human Cost / War',
     zoneId: 2,
     xPos: 25,
     yPos: 48,
-    techniques: ['Tactile Imagery', 'Personification', 'Visual Contrast', 'Metonymy'],
+    techniques: ['Metaphor', 'Hellish Imagery'],
     literaryDevices: [
       {
-        name: 'Visual Contrast',
-        quotePhrase: 'oil on the sea and the streak of fire',
-        explanation: 'Contrasts dark, heavy, liquid petroleum with bright, violent streaks of missile fire and burning slicks.'
-      },
-      {
-        name: 'Personification',
-        quotePhrase: 'burden of the sea',
-        explanation: 'Portrays the ocean as an overburdened entity carrying the weight of human sin, wreckage, and toxic oil.'
+        name: 'Metaphor',
+        quotePhrase: 'uniform of fire',
+        explanation: 'Suggests the soldier was being burned alive. A uniform, usually representative of pride, is devoured by fire, destroying both life and patriotism.'
       }
     ],
-    analysis: 'Stanza 4 transitions the map to the shoreline and environmental trauma. The sea is personified as carrying an unbearable physical and moral "burden". The "streak of fire" evokes missile trails across gulf skies and slicks burning on the water surface.',
-    context: 'Over 240 million gallons of crude oil formed a toxic slick over 1,500 square miles of gulf coastlines, killing over 30,000 seabirds and devastating commercial fishing.',
-    symbolism: ['Streak of fire = Missiles, bombing raids, and burning petroleum', 'Burden of the sea = Weight of human greed, ecological destruction, and military debris'],
+    analysis: 'This line intensifies the hellish imagery of war, showing that death is not abstract. It adds a layer of horror and shows the brutal, unrelenting nature of the violence. This acts as a bridge between the effects of war on nature and on people, running parallel to the suffering of the natural world.',
+    context: 'The reality of ground and naval combat in the Gulf War resulted in horrific burn casualties.',
+    symbolism: ['Uniform of fire = Destruction of nationhood, pride, and human life'],
     keyVocabulary: [
-      { word: 'Burden', definition: 'A heavy load or moral weight carried with great difficulty.' }
+      { word: 'Patriotism', definition: 'The quality of being patriotic; devotion to and vigorous support for one\'s country.' }
     ],
-    essayPrompt: 'How does Clarke use personification to convey the ocean\'s plight in Stanza 4?'
+    essayPrompt: 'Analyze how the "uniform of fire" functions as a bridge between environmental and human destruction.'
   },
   {
     id: 5,
     stanzaNumber: 5,
-    title: 'Stanza 5: Uniform of Fire & Humbled Sun',
-    quote: 'For the soldier in his uniform of fire / For the sun humbled',
-    fullStanzaText: 'for the soldier in his uniform of fire,\nfor the sun humbled,\nfor the harvest burnt and the ocean\'s veil,\nfor her veil of oil.',
+    title: 'Complicit Creators',
+    quote: 'For the gunsmith and the armourer',
+    fullStanzaText: 'For the gunsmith and the armourer,\nthe boy fusilier who joined for the company,\nthe farmer\'s sons, in it for the music.',
     category: 'Human Cost / War',
     zoneId: 2,
     xPos: 70,
     yPos: 56,
-    techniques: ['Visceral Imagery', 'Hyperbole', 'Cosmic Scale', 'Metaphor'],
+    techniques: ['Listing'],
     literaryDevices: [
       {
-        name: 'Visceral Imagery',
-        quotePhrase: 'soldier in his uniform of fire',
-        explanation: 'Shocking, painful imagery of combatants enveloped in flames, converting military attire into an instrument of agony.'
-      },
-      {
-        name: 'Cosmic Scale / Personification',
-        quotePhrase: 'sun humbled',
-        explanation: 'The sun—the supreme celestial symbol of life and power—is reduced ("humbled") by thick black smoke plumes from burning Kuwaiti oil wells.'
+        name: 'Listing / Litany',
+        quotePhrase: 'gunsmith and the armourer',
+        explanation: 'Includes those who furnish and maintain weapons in the list of victims and participants of war.'
       }
     ],
-    analysis: 'Stanza 5 reaches peak intensity as human combatants suffer agonizing deaths ("uniform of fire"). The cosmic image "the sun humbled" conveys how human warfare disrupted planetary atmosphere and light cycles, blotting out daylight under thick black clouds of burning oil.',
-    context: 'In February 1991, retreating Iraqi forces detonated explosives on over 700 Kuwaiti oil wells. The resulting fires burned for over 8 months, spewing 5,000 tons of soot daily and dimming sunlight across the Middle East.',
-    symbolism: ['Uniform of fire = Agonies of combat, chemical/fire warfare', 'Sun humbled = Planetary disruption, loss of light and hope'],
+    analysis: 'The speaker grieves for those who furnish weapons and defense systems. They might not have had a choice and had to become complicit in war. Their work illustrates a morally incorrect situation and perpetuates destruction. Perhaps they are only trying to profit financially from warfare, yet they are inextricably tied to the violence.',
+    context: 'The military-industrial complex and the everyday workers whose livelihoods depend on the production of weapons.',
+    symbolism: ['Gunsmith = Complicity in violence and moral ambiguity'],
     keyVocabulary: [
-      { word: 'Humbled', definition: 'Lowered in dignity or power; dimmed and eclipsed.' },
-      { word: 'Visceral', definition: 'Relating to deep inward feelings or physical bodily sensations.' }
+      { word: 'Complicit', definition: 'Involved with others in an illegal activity or wrongdoing.' }
     ],
-    essayPrompt: 'Discuss how Gillian Clarke connects personal human suffering with cosmic environmental disruption in Stanza 5.'
+    essayPrompt: 'Why does the poet include the gunsmith and the armourer in her litany of lamentation?'
   },
   {
     id: 6,
     stanzaNumber: 6,
-    title: 'Stanza 6: Burnt Harvest & The Ocean\'s Veil',
-    quote: 'For the harvest burnt and the ocean\'s veil / For her veil of oil',
-    fullStanzaText: 'for the harvest burnt and the ocean\'s veil,\nfor her veil of oil,\nfor the burnt earth and the sun humbled,\nfor the blazing eye of the dragon.',
-    category: 'Environmental Trauma',
-    zoneId: 3,
-    xPos: 30,
-    yPos: 75,
-    techniques: ['Anaphora', 'Elegiac Refrain', 'Symbolism', 'Repetition'],
+    title: 'Naïve Motivations',
+    quote: 'the farmer’s sons, in it for the music',
+    fullStanzaText: 'the boy fusilier who joined for the company,\nthe farmer\'s sons, in it for the music.',
+    category: 'Human Cost / War',
+    zoneId: 2,
+    xPos: 50,
+    yPos: 65,
+    techniques: ['Pathos', 'Irony'],
     literaryDevices: [
       {
-        name: 'Elegiac Symbolism',
-        quotePhrase: 'ocean\'s veil / her veil of oil',
-        explanation: 'The "veil" evokes funeral mourning attire, wedding purity ruined, and a suffocating layer of black oil choking ocean life.'
-      },
-      {
-        name: 'Anaphora',
-        quotePhrase: 'for the harvest burnt... for her veil',
-        explanation: 'The relentless repetition of "for" mimics a church litany, funeral prayer, or solemn roll call of casualties.'
+        name: 'Pathos',
+        quotePhrase: 'in it for the music',
+        explanation: 'Highlights the young men joining for innocent, personal reasons (like a military band) rather than political ones, unaware of the reality.'
       }
     ],
-    analysis: 'Stanza 6 links agricultural destruction ("harvest burnt") with marine suffocation. The metaphor "veil of oil" fuses the funeral veil worn by grieving widows with the thick coat of crude oil suffocating the sea mother ("her").',
-    context: 'Black rain containing toxic sulfur dioxide and heavy metals fell across crop fields, water reservoirs, and farmlands across Iran, Iraq, and Kuwait.',
-    symbolism: ['Burnt harvest = Ruined futures, destroyed food supply', 'Veil of oil = Mourning garb & choking environmental barrier'],
+    analysis: 'Creates an image of innocence and vulnerability. These young men are distanced from the dictators waging the war. It is a tragedy to see young, innocent men die while caught in fierce fighting, highlighting how disoriented their motivations are from larger political forces. "Sons" connotes lost potential and bright futures cut short.',
+    context: 'Many young soldiers enlist for community, steady pay, or a sense of belonging rather than ideological hatred.',
+    symbolism: ['The music = Innocent, naive motivations and camaraderie'],
     keyVocabulary: [
-      { word: 'Veil', definition: 'A fine material worn to protect or conceal the face, often associated with grief and mourning.' }
+      { word: 'Pathos', definition: 'A quality that evokes pity or sadness.' }
     ],
-    essayPrompt: 'How does the image of the "veil" function on multiple symbolic levels in Stanza 6?'
+    essayPrompt: 'Discuss how Clarke evokes pathos through the phrase "in it for the music".'
   },
   {
     id: 7,
     stanzaNumber: 7,
-    title: 'Stanza 7: Burnt Earth & The Blazing Dragon',
-    quote: 'For the burnt earth and the sun humbled / For the blazing eye of the dragon',
-    fullStanzaText: 'for the burnt earth and the sun humbled,\nfor the blazing eye of the dragon,\nfor the world\'s last breath.',
-    category: 'Human Cost / War',
+    title: 'The Veiled Sun',
+    quote: 'the veiled sun and the stink of anger',
+    fullStanzaText: 'For the veiled sun and the stink of anger.',
+    category: 'Environmental Trauma',
     zoneId: 3,
-    xPos: 65,
-    yPos: 85,
-    techniques: ['Mythological Allusion', 'Metaphor', 'Apocalyptic Imagery', 'Climax'],
+    xPos: 30,
+    yPos: 75,
+    techniques: ['Personification', 'Synesthesia', 'Symbolism'],
     literaryDevices: [
       {
-        name: 'Mythological Allusion',
-        quotePhrase: 'blazing eye of the dragon',
-        explanation: 'Compares roaring oil well fire gushers and military destruction to a ferocious, monstrous dragon consuming the earth.'
+        name: 'Synesthesia',
+        quotePhrase: 'stink of anger',
+        explanation: 'Fuses sensory (smell) and emotional (anger) realms, showing the palpable, overwhelming rage that hangs in the air.'
       },
       {
-        name: 'Apocalyptic Imagery',
-        quotePhrase: 'for the world\'s last breath',
-        explanation: 'Final climactic warning that unchecked military violence and environmental destruction could bring about planetary end.'
+        name: 'Personification',
+        quotePhrase: 'veiled sun',
+        explanation: 'The sun is personified; the smoke acts like a funeral veil, symbolizing the death of nature.'
       }
     ],
-    analysis: 'Stanza 7 brings Gillian Clarke’s elegy to its apocalyptic climax. The "blazing eye of the dragon" invokes mythic fire-breathing monsters to symbolize the terrifying, uncontrollable oil fires and hyper-technological weaponry of modern war.',
-    context: 'Firefighters from 10 countries spent 9 months battling the infernos. The oil well gushers shot flames hundreds of feet into the air, visible from space like giant glowing dragon eyes.',
-    symbolism: ['Dragon = Military industrial complex, roaring oil well fires', 'World’s last breath = Final ecological warning'],
+    analysis: 'The smoke from burning oil fields obscures the sun, acting like a funeral veil. This reinforces mourning for the planet and underscores the pointlessness of war, which destroys the harmony of the world. "Stink of anger" links the physical smell of burning oil to the emotional devastation caused by conflict.',
+    context: 'The burning of Kuwaiti oil fields released massive clouds of toxic smoke, physically blocking out the sun.',
+    symbolism: ['Veiled sun = Death of nature and harmony', 'Stink of anger = Palpable rage and burning oil'],
     keyVocabulary: [
-      { word: 'Apocalyptic', definition: 'Resembling the end of the world; catastrophic and ultimate.' },
-      { word: 'Litany', definition: 'A tedious recital or repetitive chant, traditionally used in prayers for deliverance.' }
+      { word: 'Synesthesia', definition: 'A figure of speech in which one sense is described using terms from another.' }
     ],
-    essayPrompt: 'Examine how Gillian Clarke uses apocalyptic mythic imagery in the final stanza to warn future generations.'
+    essayPrompt: 'How does the phrase "stink of anger" fuse the physical environment with the emotional reality of war?'
+  },
+  {
+    id: 8,
+    stanzaNumber: 8,
+    title: 'Burnt Earth',
+    quote: 'burnt earth and the sun put out',
+    fullStanzaText: 'burnt earth and the sun put out',
+    category: 'Environmental Trauma',
+    zoneId: 3,
+    xPos: 75,
+    yPos: 80,
+    techniques: ['Apocalyptic Imagery', 'Allusion', 'Metaphor'],
+    literaryDevices: [
+      {
+        name: 'Allusion',
+        quotePhrase: 'burnt earth',
+        explanation: 'Alludes to the "scorched earth policy" of retreating armies burning resources, viewed as deeply evil and inhumane.'
+      },
+      {
+        name: 'Metaphor',
+        quotePhrase: 'sun put out',
+        explanation: 'A chilling metaphor taking the "veiled sun" to its ultimate conclusion: the extinguishing of life itself.'
+      }
+    ],
+    analysis: 'An apocalyptic vision of death and destruction. The "burnt earth" highlights how the scorched land is unable to sustain life, as though hell has been created on earth. "Put out" is casually phrased, as if destroying the sun is as easy as flipping a light switch, emphasizing human recklessness and nature\'s fragility.',
+    context: 'The retreating Iraqi army utilized a scorched earth policy, setting fire to Kuwait’s oil wells to leave nothing for their enemies.',
+    symbolism: ['Burnt earth = Irreversible destruction of the natural world'],
+    keyVocabulary: [
+      { word: 'Scorched Earth Policy', definition: 'A military strategy of burning or destroying buildings, crops, or other resources that might be of use to an invading enemy force.' }
+    ],
+    essayPrompt: 'Examine the effect of apocalyptic imagery in portraying the ultimate conclusion of human recklessness.'
+  },
+  {
+    id: 9,
+    stanzaNumber: 9,
+    title: 'Ashes of Language',
+    quote: 'For vengeance, and the ashes of language',
+    fullStanzaText: 'For vengeance, and the ashes of language',
+    category: 'Environmental Trauma',
+    zoneId: 3,
+    xPos: 45,
+    yPos: 88,
+    techniques: ['Metaphor', 'Symbolism'],
+    literaryDevices: [
+      {
+        name: 'Metaphor',
+        quotePhrase: 'ashes of language',
+        explanation: 'Suggests that much more than the physical is lost; abstract concepts of civilization have been reduced to ashes.'
+      }
+    ],
+    analysis: 'The word "vengeance" ends the poem on a sombre note, asking the reader to reflect on the human motivations behind war: retaliation and the cycle of violence. Language is a symbol of civilization, progress, and truth. Its destruction into "ashes" symbolizes deep barbarism and the regression of humanity, revealing the poet\'s ultimate view on war.',
+    context: 'War destroys the ability to communicate, reason, and share truths, leaving only destruction.',
+    symbolism: ['Ashes of language = The death of civilization, truth, and human connection'],
+    keyVocabulary: [
+      { word: 'Barbarism', definition: 'Absence of culture and civilization; extreme cruelty or brutality.' }
+    ],
+    essayPrompt: 'What does "the ashes of language" reveal about the ultimate cost of war beyond physical destruction?'
   }
 ];
 
 export const LITERARY_TERMS: LiteraryTerm[] = [
   {
-    term: 'Elegy',
-    category: 'Structure',
-    definition: 'A poem of serious reflection, typically a lament for the dead or lost way of life. *Lament* extends elegy beyond human loss to include flora, fauna, and the planet.',
-    exampleFromPoem: '"For the cormorant in his nest of silk..."'
+    term: 'Personification',
+    category: 'Device',
+    definition: 'Giving human feelings or qualities to non-human objects or animals, encouraging reader empathy.',
+    exampleFromPoem: '"her eggs", "veiled sun"'
   },
   {
-    term: 'Litany / Anaphora',
+    term: 'Metaphor',
     category: 'Device',
-    definition: 'Repetition of a word or phrase at the start of successive lines. Clarke repeats "For..." 21 times to mimic a funeral prayer or memorial roll call.',
-    exampleFromPoem: '"For the gull... For the oil... For the soldier..."'
+    definition: 'A figure of speech describing an object or action in a way that isn\'t literally true, but helps explain an idea or make a comparison.',
+    exampleFromPoem: '"funeral silk", "uniform of fire", "ashes of language"'
+  },
+  {
+    term: 'Sibilance',
+    category: 'Device',
+    definition: 'Repetition of the \'s\' sound, often creating a sorrowful, uneasy, or sinister mood.',
+    exampleFromPoem: '"nest of sickness"'
+  },
+  {
+    term: 'Metonymy',
+    category: 'Device',
+    definition: 'A figure of speech in which a thing is referred to by the name of something closely associated with it, or a specific example stands in for a larger whole.',
+    exampleFromPoem: '"the cormorant" (representing all dying wildlife)'
   },
   {
     term: 'Juxtaposition',
     category: 'Device',
-    definition: 'Placing two contrasting ideas side-by-side to highlight differences. Pairs delicate beauty with brutal war.',
-    exampleFromPoem: '"nest of silk" (oil slick) vs "shadow on the sea"'
+    definition: 'Placing two contrasting ideas side-by-side to highlight differences.',
+    exampleFromPoem: 'natural storms vs "missile\'s thunder"'
   },
   {
-    term: 'Anthropomorphism / Personification',
+    term: 'Synesthesia',
     category: 'Device',
-    definition: 'Giving human feelings or qualities to non-human objects or animals, encouraging reader empathy.',
-    exampleFromPoem: '"grief of the cormorant", "the sun humbled", "burden of the sea"'
+    definition: 'A figure of speech in which one sense is described using terms from another.',
+    exampleFromPoem: '"stink of anger"'
   },
   {
-    term: 'Oxymoron',
+    term: 'Pathos',
     category: 'Device',
-    definition: 'A figure of speech in which contradictory terms appear in conjunction to signal unnatural conflict.',
-    exampleFromPoem: '"ocean\'s scalding boy" (cool sea vs burning heat)'
+    definition: 'A quality that evokes pity or sadness.',
+    exampleFromPoem: '"the farmer’s sons, in it for the music"'
   },
   {
-    term: 'Cosmic Imagery',
+    term: 'Allusion',
     category: 'Device',
-    definition: 'Using celestial bodies (sun, earth, horizon) to project human war onto a universal, planetary scale.',
-    exampleFromPoem: '"the sun humbled", "burnt earth", "world\'s last breath"'
-  },
-  {
-    term: 'Visceral Imagery',
-    category: 'Device',
-    definition: 'Physical, sensory description appealing to touch, temperature, sight, and bodily pain.',
-    exampleFromPoem: '"uniform of fire", "nest of silk", "streak of fire"'
-  },
-  {
-    term: 'Mythological Allusion',
-    category: 'Device',
-    definition: 'Referencing folklore, myths, or legendary creatures to amplify scale and terror.',
-    exampleFromPoem: '"blazing eye of the dragon"'
+    definition: 'An expression designed to call something to mind without mentioning it explicitly; an indirect or passing reference.',
+    exampleFromPoem: '"burnt earth" (referencing scorched earth policy)'
   }
 ];
 
 export const OVERARCHING_ANALYSIS = {
   title: "Gillian Clarke's *Lament*: Structural & Historical Analysis",
   formAndElegy: {
-    heading: "Form, Elegy & Meter",
-    content: "Written in response to the 1991 Gulf War, *Lament* is a modern anti-war environmental elegy. Unlike traditional elegies focused on a single deceased individual, Clarke expands her mournful scope to encompass entire marine ecosystems, coastal habitats, innocent civilians, young soldiers, and the planet itself. The poem is written in 7 irregular stanzas using free verse with anaphoric rhythm."
+    heading: "Grief over the effects of war on nature",
+    content: "The poem laments the impact war has on the ecological world. The nest of sickness, the funeral silk of the cormorant, and the whale struck dumb represent innocent creatures whose habitats and lives are destroyed. Nature becomes collateral damage, bearing the toxic consequences of human violence."
   },
   litanyStructure: {
-    heading: "The Litany of Losses (Anaphora)",
-    content: "The relentless repetition of the preposition 'For...' at the beginning of 21 phrases turns the poem into a solemn litany—a sacred prayer or list of casualties recited at a funeral. Each line names a victim, from the smallest seabird to the planet's atmosphere, creating a cumulative emotional weight that builds to the apocalyptic final stanza."
+    heading: "The Human Qualities of War",
+    content: "War is not abstract; its violence burns through humanity as deeply as the earth. From the soldier in his uniform of fire to the young farmer\'s sons joining for the music, human beings are caught in forces beyond their control. Even the gunsmith and armourer are pulled into the machinery of complicity and death."
   },
   gulfWarContext: {
-    heading: "1991 Gulf War Historical Background",
-    content: "In January 1991, during Operation Desert Storm, Iraqi forces intentionally released over 8 million barrels of crude oil into the Persian Gulf and ignited over 700 Kuwaiti oil wells. The resulting environmental devastation was catastrophic: miles of coastlines were buried in black sludge, tens of thousands of migratory birds starved or suffocated, and black smoke clouds blocked sunlight across the Middle East for nearly a year."
+    heading: "1991 Gulf War & Scorched Earth",
+    content: "The historical backdrop involves the 1991 Gulf War, where millions of barrels of crude oil were spilled into the Persian Gulf and retreating armies ignited Kuwaiti oil wells. The resulting thick smoke literally eclipsed the sun, while coastal habitats were coated in toxic sludge."
   },
   thematicProgression: {
-    heading: "Zone & Thematic Progression",
-    content: "The poem moves systematically through three geographic and thematic zones:\n1. Marine Life (Stanzas 1–3): Delicate coastal fauna trapped in petroleum.\n2. Shoreline & Human Impact (Stanzas 4–5): Physical destruction extending to naval personnel and ground combatants.\n3. Desert, Sky & Cosmic Fallout (Stanzas 6–7): Total ecological collapse, global smoke, and apocalyptic war."
+    heading: "Senselessness of War & The Ashes of Language",
+    content: "Ultimately, the poem reveals the utter pointlessness and barbarism of conflict. Retaliation and vengeance lead to a state where both the physical earth is burnt, and the abstract pillars of human civilization—represented by 'the ashes of language'—are destroyed. The ability to communicate, reason, and write history is reduced to dust."
   }
 };
 
@@ -305,90 +337,90 @@ export const REVISION_QUIZ: QuizQuestion[] = [
   {
     id: 1,
     stanzaNumber: 1,
-    question: 'What technique is used in "nest of silk" to describe crude oil in Stanza 1?',
-    options: ['Simile', 'Metaphor', 'Onomatopoeia', 'Hyperbole'],
+    question: 'What technique is primarily used in the phrase "nest of sickness"?',
+    options: ['Simile', 'Sibilance', 'Onomatopoeia', 'Hyperbole'],
     correctAnswer: 1,
-    explanation: '"Nest of silk" is a metaphor comparing viscous, glittering oil to soft luxury silk, emphasizing how deceptively deadly human pollution is.',
-    techniqueTested: 'Metaphor'
+    explanation: 'Sibilance (the repetition of \'s\' sounds) in "nest of sickness" conveys a sorrowful, uneasy mood and slows down the pace of reading.',
+    techniqueTested: 'Sibilance'
   },
   {
     id: 2,
     stanzaNumber: 2,
-    question: 'Why does Gillian Clarke describe the green turtle as having a "mantle of green"?',
+    question: 'How is the cormorant described as a mourner?',
     options: [
-      'To show the turtle is camouflage hunting',
-      'To bestow royal dignity upon the victimized creature',
-      'To indicate the turtle is sick with algae',
-      'To emphasize military uniforms'
+      'It wears a black veil',
+      'It is dressed in "funeral silk" (oil)',
+      'It sings a sad song',
+      'It is flying away'
     ],
     correctAnswer: 1,
-    explanation: '"Mantle" (a royal cloak) gives noble dignity to nature, showing that innocent animals are majestic beings suffering from human violence.',
-    techniqueTested: 'Regal Diction'
+    explanation: 'The metaphor "funeral silk" represents the cormorant’s feathers being covered in a layer of oil, making it look like a mourner in black.',
+    techniqueTested: 'Metaphor'
   },
   {
     id: 3,
     stanzaNumber: 3,
-    question: 'What paradox / oxymoron is created by the phrase "ocean\'s scalding boy"?',
+    question: 'What is disrupted when the whale is "struck dumb"?',
     options: [
-      'The ocean is normally warm and comforting',
-      'The ocean (normally cool water) is turned scalding hot by oil fires and naval combat',
-      'Boys are naturally cold-blooded',
-      'The sun is cooling down the sea'
+      'The ocean\'s tides',
+      'Its complex sounds used for communication and navigation',
+      'Its ability to find food',
+      'The soldiers\' radios'
     ],
     correctAnswer: 1,
-    explanation: 'Combining "ocean" (cool water) with "scalding" highlights how war unnaturally transforms life-giving water into a burning trap for young soldiers.',
-    techniqueTested: 'Oxymoron / Contrast'
+    explanation: 'Whales rely on complex sounds to communicate; the overpowering "missile\'s thunder" disrupts their navigation and silences them.',
+    techniqueTested: 'Context / Impact'
   },
   {
     id: 4,
     stanzaNumber: 4,
-    question: 'What structural device is used by repeating "For..." at the start of lines throughout *Lament*?',
-    options: ['Alliterative rhyme', 'Anaphora / Litany', 'Sonnet voltas', 'Enjambment'],
+    question: 'What does the "uniform of fire" symbolize?',
+    options: ['A special military camouflage', 'The destruction of nationhood and pride through horrific burns', 'A medal of honor', 'The sun setting'],
     correctAnswer: 1,
-    explanation: 'The repetition of "For..." is anaphora, creating a funeral litany or roll call of war casualties.',
-    techniqueTested: 'Anaphora'
+    explanation: 'A uniform represents pride and nationhood, but when devoured by fire, it shows how war destroys both life and patriotism.',
+    techniqueTested: 'Metaphor'
   },
   {
     id: 5,
-    stanzaNumber: 5,
-    question: 'What historical event directly inspired the line "for the sun humbled"?',
+    stanzaNumber: 6,
+    question: 'Why did the "farmer’s sons" join the military, according to the poem?',
     options: [
-      'A solar eclipse over Baghdad',
-      'The burning of over 700 Kuwaiti oil wells creating massive black smoke plumes',
-      'Nuclear fallout in Europe',
-      'Volcanic eruption in the Gulf'
+      'For political motivations',
+      'For the music and human connection',
+      'To become generals',
+      'For vengeance'
     ],
     correctAnswer: 1,
-    explanation: 'In 1991, retreat fires lit over 700 oil wells in Kuwait, creating dense black smoke clouds that blocked daylight for months.',
-    techniqueTested: 'Historical Context / Cosmic Scale'
+    explanation: 'They were "in it for the music", highlighting their naive, personal motivations rather than political ones.',
+    techniqueTested: 'Pathos'
   },
   {
     id: 6,
-    stanzaNumber: 6,
-    question: 'In Stanza 6, what dual meaning does the metaphor "veil of oil" carry?',
+    stanzaNumber: 7,
+    question: 'What two realms does "stink of anger" fuse?',
     options: [
-      'A wedding celebration and bright sunshine',
-      'Funeral mourning attire and a physical choking layer over the ocean',
-      'A magician’s trick and oil drilling rigs',
-      'Military camouflage nets'
+      'Visual and auditory',
+      'Sensory (smell) and emotional (anger)',
+      'Taste and touch',
+      'Past and present'
     ],
     correctAnswer: 1,
-    explanation: '"Veil" links the black mourning veil worn by widows with the suffocating layer of oil choking marine life.',
-    techniqueTested: 'Elegiac Symbolism'
+    explanation: 'Synesthesia is used here to fuse the physical smell of burning oil with the emotional devastation and palpable rage of war.',
+    techniqueTested: 'Synesthesia'
   },
   {
     id: 7,
-    stanzaNumber: 7,
-    question: 'What does the "blazing eye of the dragon" symbolize in the final stanza?',
+    stanzaNumber: 9,
+    question: 'What do "the ashes of language" represent?',
     options: [
-      'A mythical pet kept by soldiers',
-      'Roaring oil well fire infernos and monstrous military destruction',
-      'Ancient Persian gulf folklore',
-      'The heat of the desert sand dunes'
+      'Burnt books',
+      'The regression of civilization and destruction of human communication',
+      'A campfire',
+      'The end of the poem'
     ],
     correctAnswer: 1,
-    explanation: 'The "dragon" is a mythological allusion representing the fire-breathing, uncontrollable destruction of oil infernos and war machinery.',
-    techniqueTested: 'Mythological Allusion'
+    explanation: 'Language symbolizes civilization and progress. Its destruction into ashes conveys deep barbarism and the loss of truth.',
+    techniqueTested: 'Symbolism'
   }
 ];
 
@@ -396,57 +428,57 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 1,
     stanzaNumber: 1,
-    front: 'Quote: "nest of silk"\nTechnique?',
-    back: 'Metaphor: Compares sticky, toxic crude oil to luxurious silk, revealing how human pollution deceptively traps wildlife.',
+    front: 'Quote: "nest of sickness"\nTechnique?',
+    back: 'Sibilance & Contrast: "Nest" connotes safety and new life, contrasted shockingly with "sickness". The sibilance creates an uneasy, sorrowful mood.',
     category: 'Marine'
   },
   {
     id: 2,
     stanzaNumber: 2,
-    front: 'Quote: "mantle of green"\nTechnique?',
-    back: 'Regal Diction / Honorific: Bestows royal dignity upon the green sea turtle victimized by war.',
+    front: 'Quote: "funeral silk"\nTechnique?',
+    back: 'Metaphor: Represents the layer of oil covering the cormorant. It creates the image of a mourner in black grieving for its ruined habitat.',
     category: 'Marine'
   },
   {
     id: 3,
     stanzaNumber: 3,
-    front: 'Quote: "ocean\'s scalding boy"\nTechnique?',
-    back: 'Oxymoron / Paradox: Juxtaposes cool ocean waters with scalding heat, referencing naval oil fires and young soldiers.',
-    category: 'Shoreline'
+    front: 'Quote: "missile\'s thunder"\nTechnique?',
+    back: 'Juxtaposition: Compares man-made weapons to natural storms. The unnatural noise overpowers the whale’s song and natural order.',
+    category: 'Marine'
   },
   {
     id: 4,
     stanzaNumber: 4,
-    front: 'Quote: "burden of the sea"\nTechnique?',
-    back: 'Personification: The ocean is portrayed as carrying an unbearable physical and moral weight of human sin.',
-    category: 'Environmental Trauma'
+    front: 'Quote: "uniform of fire"\nTechnique?',
+    back: 'Metaphor: Agonizing description of soldiers burning. It shows the destruction of military pride and human life, bridging natural and human suffering.',
+    category: 'Human Cost'
   },
   {
     id: 5,
-    stanzaNumber: 5,
-    front: 'Quote: "soldier in his uniform of fire"\nTechnique?',
-    back: 'Visceral Imagery: Agonizing description of combatants engulfed in flames during military engagement.',
+    stanzaNumber: 6,
+    front: 'Quote: "in it for the music"\nTechnique?',
+    back: 'Pathos: Highlights the innocence and vulnerability of young men whose naive motivations led them to tragedy, distanced from political leaders.',
     category: 'Human Cost'
   },
   {
     id: 6,
-    stanzaNumber: 5,
-    front: 'Quote: "sun humbled"\nTechnique?',
-    back: 'Cosmic Scale / Personification: Thick soot from 700 burning oil wells eclipsed daylight, proving war disrupts planetary cycles.',
+    stanzaNumber: 7,
+    front: 'Quote: "stink of anger"\nTechnique?',
+    back: 'Synesthesia: Fuses the physical smell of burning oil fields with the emotional, palpable rage hanging in the air.',
     category: 'Environmental Trauma'
   },
   {
     id: 7,
-    stanzaNumber: 6,
-    front: 'Quote: "veil of oil"\nTechnique?',
-    back: 'Elegiac Symbolism: Fuses widow mourning veils with the suffocating slick covering marine life.',
+    stanzaNumber: 8,
+    front: 'Quote: "burnt earth"\nTechnique?',
+    back: 'Allusion: References the inhumane "scorched earth policy" of destroying resources, highlighting the apocalyptic aftermath of conflict.',
     category: 'Environmental Trauma'
   },
   {
     id: 8,
-    stanzaNumber: 7,
-    front: 'Quote: "blazing eye of the dragon"\nTechnique?',
-    back: 'Mythological Allusion: Compares roaring 100ft oil well fire infernos to a destructive mythic dragon.',
-    category: 'War & Desert'
+    stanzaNumber: 9,
+    front: 'Quote: "ashes of language"\nTechnique?',
+    back: 'Symbolism: The destruction of civilization and progress. It implies war reduces humanity to barbarism where communication and truth are destroyed.',
+    category: 'Environmental Trauma'
   }
 ];

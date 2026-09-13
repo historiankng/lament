@@ -62,28 +62,6 @@ export const StanzaMapCanvas: React.FC<StanzaMapCanvasProps> = ({
       {/* Container Frame with moody atmospheric dark styling */}
       <div className="relative overflow-hidden rounded-2xl border border-slate-800 bg-[#0d1117] shadow-2xl min-h-[720px] lg:min-h-[800px] flex flex-col justify-between select-none">
         
-        {/* Background Atmospheric Layering */}
-        <div className="absolute inset-0 pointer-events-none z-0">
-          
-          {/* Subtle SVG Oil Slick Waves Overlay */}
-          <svg className="absolute inset-0 w-full h-full opacity-15" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="oilGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#06b6d4" stopOpacity="0.4" />
-                <stop offset="50%" stopColor="#0d9488" stopOpacity="0.2" />
-                <stop offset="100%" stopColor="#f97316" stopOpacity="0.3" />
-              </linearGradient>
-            </defs>
-            <path d="M 0 150 Q 350 220 700 130 T 1400 180 V 0 H 0 Z" fill="url(#oilGradient)" />
-            <path d="M 0 420 Q 400 350 800 450 T 1400 390 V 800 H 0 Z" fill="#0d1117" opacity="0.6" />
-          </svg>
-
-          {/* Ambient Glow Orbs */}
-          <div className="absolute top-10 left-1/4 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute top-1/2 right-1/4 w-80 h-80 bg-cyan-600/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-10 left-1/3 w-96 h-96 bg-amber-600/15 rounded-full blur-3xl pointer-events-none" />
-        </div>
-
         {/* --- ZONE 1: THE SEA & MARINE LIFE (Stanzas 1–3) --- */}
         <div className="relative z-10 flex-1 border-b border-teal-900/40 p-6 sm:p-8 overflow-hidden">
           {/* Background Image with Overlay */}
@@ -176,15 +154,6 @@ export const StanzaMapCanvas: React.FC<StanzaMapCanvasProps> = ({
                 {/* Node Hotspot Container */}
                 <div className="relative group cursor-pointer" onClick={() => onSelectNode(node)}>
                   
-                  {/* Outer Pulsing Aura */}
-                  <div
-                    className={`absolute -inset-3 rounded-full opacity-75 blur-md transition-all duration-500 ${
-                      isWarCategory
-                        ? 'bg-gradient-to-r from-amber-500 to-rose-600 group-hover:scale-125'
-                        : 'bg-gradient-to-r from-teal-400 to-cyan-500 group-hover:scale-125'
-                    } ${isHovered ? 'scale-150 animate-none opacity-100' : 'animate-pulse'}`}
-                  />
-
                   {/* Node Circle */}
                   <div
                     className={`relative w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center border-2 transition-all duration-300 shadow-xl ${
@@ -281,10 +250,10 @@ export const StanzaMapCanvas: React.FC<StanzaMapCanvasProps> = ({
           </div>
           <div className="flex items-center gap-4 text-[11px] font-medium shrink-0">
             <span className="flex items-center gap-1.5 text-teal-400">
-              <span className="w-2.5 h-2.5 rounded-full bg-teal-400 animate-pulse" /> Marine Nodes
+              <span className="w-2.5 h-2.5 rounded-full bg-teal-400" /> Marine Nodes
             </span>
             <span className="flex items-center gap-1.5 text-amber-400">
-              <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" /> War & Smoke Nodes
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-400" /> War & Smoke Nodes
             </span>
           </div>
         </div>

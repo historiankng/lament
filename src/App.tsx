@@ -5,22 +5,16 @@ import { Header } from './components/Header';
 import { FilterBar } from './components/FilterBar';
 import { StanzaMapCanvas } from './components/StanzaMapCanvas';
 import { NodeDetailModal } from './components/NodeDetailModal';
-import { SidebarAnalysis } from './components/SidebarAnalysis';
-import { FullPoemReader } from './components/FullPoemReader';
 import { RevisionQuiz } from './components/RevisionQuiz';
-import { FlashcardStudy } from './components/FlashcardStudy';
-import { toggleAmbientAudio, isAudioPlaying as getIsAudioPlaying } from './utils/audioSynth';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'map' | 'poem' | 'analysis' | 'quiz' | 'flashcards'>('map');
+  const [activeTab, setActiveTab] = useState<'map' | 'quiz'>('map');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
   const [selectedTechnique, setSelectedTechnique] = useState<string>('ALL');
   const [searchQuery, setSearchQuery] = useState<string>('');
   
   const [selectedNodeModal, setSelectedNodeModal] = useState<StanzaNode | null>(null);
-  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
   const [exploredStanzas, setExploredStanzas] = useState<number[]>([]);
-  const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
 
   // Extract unique techniques across all nodes
   const allTechniques = useMemo(() => {
@@ -54,10 +48,6 @@ export default function App() {
     }
   };
 
-  const handleToggleAudio = () => {
-    toggleAmbientAudio((playing) => setIsAudioPlaying(playing));
-  };
-
   const handleResetFilters = () => {
     setSelectedCategory('ALL');
     setSelectedTechnique('ALL');
@@ -73,9 +63,6 @@ export default function App() {
         setActiveTab={setActiveTab}
         exploredStanzas={exploredStanzas}
         totalStanzas={STANZA_NODES.length}
-        isAudioPlaying={isAudioPlaying}
-        onToggleAudio={handleToggleAudio}
-        onOpenSidebar={() => setIsSidebarOpen(true)}
       />
 
       {/* Main Content View Switcher */}
@@ -104,19 +91,8 @@ export default function App() {
           </div>
         )}
 
-        {activeTab === 'poem' && (
-          <FullPoemReader
-            nodes={STANZA_NODES}
-            onSelectNode={handleSelectNode}
-          />
-        )}
-
         {activeTab === 'quiz' && (
           <RevisionQuiz />
-        )}
-
-        {activeTab === 'flashcards' && (
-          <FlashcardStudy />
         )}
       </main>
 
@@ -126,12 +102,6 @@ export default function App() {
         onClose={() => setSelectedNodeModal(null)}
         onNavigateNode={handleNavigateModalNode}
         totalNodes={STANZA_NODES.length}
-      />
-
-      {/* Overarching Analysis Sidebar Drawer */}
-      <SidebarAnalysis
-        isOpen={isSidebarOpen}
-        onClose={() => setIsSidebarOpen(false)}
       />
 
       {/* Footer */}

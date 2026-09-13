@@ -1,14 +1,11 @@
 import React from 'react';
-import { BookOpen, Map, HelpCircle, Layers, Volume2, VolumeX, CheckCircle, Flame, Waves } from 'lucide-react';
+import { HelpCircle, Map, CheckCircle, Flame, Waves } from 'lucide-react';
 
 interface HeaderProps {
-  activeTab: 'map' | 'poem' | 'analysis' | 'quiz' | 'flashcards';
-  setActiveTab: (tab: 'map' | 'poem' | 'analysis' | 'quiz' | 'flashcards') => void;
+  activeTab: 'map' | 'quiz';
+  setActiveTab: (tab: 'map' | 'quiz') => void;
   exploredStanzas: number[];
   totalStanzas: number;
-  isAudioPlaying: boolean;
-  onToggleAudio: () => void;
-  onOpenSidebar: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -16,9 +13,6 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   exploredStanzas,
   totalStanzas,
-  isAudioPlaying,
-  onToggleAudio,
-  onOpenSidebar,
 }) => {
   const progressPercent = Math.round((exploredStanzas.length / totalStanzas) * 100);
 
@@ -31,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* App Branding */}
           <div className="flex items-start gap-3">
             <div className="p-2.5 rounded-xl bg-gradient-to-br from-teal-950 to-slate-900 border border-teal-500/30 text-teal-400 shadow-lg shadow-teal-950/50 flex-shrink-0 mt-0.5">
-              <Waves className="w-6 h-6 animate-pulse text-teal-400" />
+              <Waves className="w-6 h-6 text-teal-400" />
             </div>
             <div>
               <div className="flex items-center gap-2 flex-wrap">
@@ -51,31 +45,6 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Right Action Controls */}
           <div className="flex items-center gap-3 self-end md:self-auto flex-wrap">
-            {/* Audio Ambiance Synthesizer */}
-            <button
-              onClick={onToggleAudio}
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all duration-200 ${
-                isAudioPlaying
-                  ? 'bg-teal-950/80 border-teal-500/50 text-teal-300 shadow-lg shadow-teal-900/30 ring-1 ring-teal-500/30'
-                  : 'bg-slate-800/60 border-slate-700/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
-              }`}
-              title={isAudioPlaying ? 'Mute Atmospheric Audio' : 'Play Atmospheric Audio (Sea Waves & Embers)'}
-              id="audio-toggle-button"
-            >
-              {isAudioPlaying ? (
-                <>
-                  <Volume2 className="w-4 h-4 text-teal-400 animate-bounce" />
-                  <span className="hidden sm:inline">Soundscape ON</span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-ping" />
-                </>
-              ) : (
-                <>
-                  <VolumeX className="w-4 h-4 text-slate-400" />
-                  <span className="hidden sm:inline">Soundscape OFF</span>
-                </>
-              )}
-            </button>
-
             {/* Revision Progress Pill */}
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900/90 border border-slate-700/60 text-xs">
               <CheckCircle className={`w-4 h-4 ${progressPercent === 100 ? 'text-emerald-400' : 'text-teal-400'}`} />
@@ -89,16 +58,6 @@ export const Header: React.FC<HeaderProps> = ({
                 />
               </div>
             </div>
-
-            {/* Overarching Sidebar Drawer Toggle */}
-            <button
-              onClick={onOpenSidebar}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-teal-950/60 hover:bg-teal-900/80 border border-teal-700/50 text-teal-300 text-xs font-medium transition-colors"
-              id="sidebar-toggle-button"
-            >
-              <Layers className="w-4 h-4 text-teal-400" />
-              <span>Overarching Analysis</span>
-            </button>
           </div>
         </div>
 
@@ -119,19 +78,6 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             <button
-              onClick={() => setActiveTab('poem')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
-                activeTab === 'poem'
-                  ? 'bg-teal-950 border border-teal-500/50 text-teal-200 shadow-lg shadow-teal-950/50'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
-              }`}
-              id="tab-poem-button"
-            >
-              <BookOpen className="w-4 h-4 text-teal-400" />
-              <span>Full Annotated Poem</span>
-            </button>
-
-            <button
               onClick={() => setActiveTab('quiz')}
               className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
                 activeTab === 'quiz'
@@ -142,19 +88,6 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <HelpCircle className="w-4 h-4 text-amber-400" />
               <span>Revision Quiz</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('flashcards')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
-                activeTab === 'flashcards'
-                  ? 'bg-teal-950 border border-teal-500/50 text-teal-200 shadow-lg shadow-teal-950/50'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
-              }`}
-              id="tab-flashcards-button"
-            >
-              <Layers className="w-4 h-4 text-teal-400" />
-              <span>Flashcard Study</span>
             </button>
           </div>
 
